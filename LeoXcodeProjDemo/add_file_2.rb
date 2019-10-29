@@ -1,7 +1,7 @@
 #!/usr/bin/ruby -w
 #created by leo
 
-# 添加 PersonFile Person.h Person.m 到项目中
+# 添加 PersonFile Person.h Person.m 到项目中 对应的删除脚本为：remove_file_2.rb
 
 require 'xcodeproj'
 
