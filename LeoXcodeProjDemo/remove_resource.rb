@@ -36,7 +36,7 @@ target = project.targets[target_index]
 # 找到要操作的文件夹（此文件夹已存在且添加到项目中）
 resource_img_file = project.main_group.find_subpath(File.join('LeoXcodeProjDemo', 'resource_img'), false)
 
-# 添加 smile@2x.png 索引到 resource_img 目录
+# 找到图片索引
 file_ref = resource_img_file.find_file_by_path("smile@2x.png")
 # 移除索引
 resource_img_file.remove_reference(file_ref)
